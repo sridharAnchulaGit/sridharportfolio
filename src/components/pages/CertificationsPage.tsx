@@ -58,6 +58,24 @@ const CertificationsPage: React.FC = () => {
         practicalProjects: ['Invoice Processing Automation', 'Data Entry Bot', 'Report Generation System'],
         skills: ['Bot Framework', 'Process Optimization', 'Exception Handling', 'Analytics']
       }
+    },
+       {
+      title: 'MongoDb Certification',
+      provider: 'MongoDb',
+      description: 'Demonstrates expertise in MongoDB architecture, CRUD operations, indexing, aggregation, performance tuning, backup and recovery, and deployment of MongoDB in enterprise environments.',
+      icon: '🌿',
+      color: 'from-green-600 to-emerald-500',
+      skills: ['CRUD', 'Java (Programming Language)', 'MongoDB Tools & Tooling', 'Software Engineering'],
+      issueDate: 'July 2025',
+      validUntil: 'Lifetime (No Expiry)',
+      credentialId: 'MDB-DA-2025-001',
+      certificatePath: '/MongoDBAssociate.pdf', // Confirmed PDF path
+      verificationLink: 'https://www.credly.com/badges/fd36c7e3-3773-47fb-8e9d-2f2b6f173031/public_url', // Retained verification link
+      details: {
+        modules: ['Data Modeling & Schema Design', 'Security and Backup Strategies', 'CRUD Operations with Mongo Shell', 'MongoDB Architecture and Concepts'],
+        practicalProjects: ['E-Commerce Product Catalog with MongoDB', 'Real-Time Chat App Message Storage', 'Inventory Management System using Mongoose'],
+        skills: ['MongoDB Document Model', 'MongoDB Tools & Tooling', 'Java (Programming Language)', 'Software Engineering']
+      }
     }
   ];
 
