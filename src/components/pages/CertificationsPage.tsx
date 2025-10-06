@@ -6,6 +6,38 @@ const CertificationsPage: React.FC = () => {
 
   const certifications = [
     {
+  title: 'AWS Certified Cloud Practitioner',
+  provider: 'Amazon Web Services (AWS)',
+  description: 'Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects.',
+  icon: '☁️',
+  color: 'from-blue-400 to-indigo-500',
+  skills: ['Amazon Web Services', 'AWS', 'Cloud Platform', 'Global Infrastructure'],
+  issueDate: 'September 2025',
+  validUntil: 'September 2028',
+  credentialId: 'b7f8a4ce-140f-4eb4-a632-68936c49d2a6',
+  certificatePath: '/AWS CP.pdf', // Updated file path for Cloud Practitioner certificate
+  verificationLink: 'https://www.credly.com/badges/b7f8a4ce-140f-4eb4-a632-68936c49d2a6/public_url', // Replace with your actual Credly link
+  details: {
+    modules: [
+      'AWS Cloud Concepts',
+      'Security & Compliance',
+      'Technology Overview',
+      'Billing & Pricing'
+    ],
+    practicalProjects: [
+      'Launch EC2 Instance & Connect via SSH',
+      'Setup S3 Bucket with Public Hosting',
+      'Create IAM Users & Policies'
+    ],
+    skills: [
+      'Foundational Cloud Knowledge',
+      'AWS Global Infrastructure',
+      'Cloud Economics & Billing',
+      'Basic Security & Compliance'
+    ]
+  }
+},
+    {
       title: 'Salesforce Certification',
       provider: 'Salesforce',
       description: 'Comprehensive certification in Salesforce platform development, administration, and cloud solutions. Covers CRM implementation, custom application development, and integration strategies.',
